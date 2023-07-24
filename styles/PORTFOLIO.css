@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+/*======Fontlar=====*/
+@font-face {
+  font-family: "Barlow";
+  font-weight: 400;
+  src: url(./font/Barlow-Regular.woff);
+}
+@font-face {
+  font-family: "Barlow";
+  font-weight: 700;
+  src: url(./font/Barlow-Bold.woff);
+}
+@font-face {
+  font-family: "Barlow";
+  font-weight: 700;
+  src: url(./font/Barlow-Bold.woff2);
+}
+@font-face {
+  font-family: "Barlow";
+  font-weight: 400;
+  src: url(./font/Barlow-Regular.woff2);
+}
+body {
+  font-family: "Public Sans";
+}
+
+h1 {
+  font-family: " Ibarra Real Nova";
+}
+
+.nav {
+  width: 1111px;
+  height: 32px;
+  flex-shrink: 0;
+  justify-content: space-between;
+  display: flex;
+}
+.nav__list {
+  justify-content: space-between;
+  width: 300px;
+  display: flex;
+  list-style-type: none;
+}
+.nav__list__link {
+  text-decoration: none;
+  color: #33323D;
+  font-family: Public Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/*=====tugadi=======*/
+.wrapper {
+  gap: 100px;
+  display: flex;
+}
+.wrapper__card {
+  width: 350px;
+  height: 292px;
+  flex-shrink: 0;
+  margin-top: 40px;
+}
+.wrapper__title {
+  margin-bottom: 39px;
+  width: 350px;
+  color: #33323D;
+  font-family: Ibarra Real Nova;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+  /* 105% */
+  letter-spacing: -0.357px;
+}
+.wrapper__text {
+  width: 350px;
+  color: #33323D;
+  font-family: Public Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  /* 187.5% */
+  opacity: 0.8000000119;
+}
+.wrapper__btn {
+  margin-top: 34px;
+  width: 175px;
+  height: 48px;
+  flex-shrink: 0;
+  color: #33323D;
+  font-family: Public Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.wrapper__img {
+  border: solid 30px #FFEFEC;
+  flex-shrink: 0;
+}
+
+/*======tugadi ========*/
+.wrap {
+  display: flex;
+  justify-content: space-around;
+}
+.wrap__card {
+  margin-top: 50px;
+  width: 350px;
+  height: 312px;
+  flex-shrink: 0;
+}
+.wrap__title {
+  width: 350px;
+  color: #33323D;
+  font-family: Ibarra Real Nova;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+  /* 105% */
+  letter-spacing: -0.357px;
+}
+.wrap__text {
+  margin-top: 30px;
+  color: #33323D;
+  font-family: Public Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  /* 187.5% */
+  opacity: 0.8000000119;
+}
+.wrap__btn {
+  margin-top: 34px;
+  color: #33323D;
+  font-family: Public Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  width: 175px;
+  height: 48px;
+  flex-shrink: 0;
+}
+.wrap__img {
+  border: solid 30px #4F63D8;
+  width: 540px;
+  height: 500px;
+  flex-shrink: 0;
+}
+
+/* =========== Tugadi ===========*/
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+.navbar__title {
+  width: 350px;
+  color: #33323D;
+  font-family: Ibarra Real Nova;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+  /* 105% */
+  letter-spacing: -0.357px;
+}
+.navbar__text {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  width: 350px;
+  color: #33323D;
+  font-family: Public Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  /* 187.5% */
+  opacity: 0.8000000119;
+}
+.navbar__btn {
+  width: 175px;
+  height: 48px;
+  flex-shrink: 0;
+  border: 1px solid #33323D;
+  color: #33323D;
+  font-family: Public Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.navbar__img {
+  border: solid 30px #9A99AB;
+  width: 540px;
+  height: 500px;
+  flex-shrink: 0;
+}
+.navbar__card {
+  margin-top: 50px;
+  width: 350px;
+  height: 292px;
+  flex-shrink: 0;
+}
+
+.navbar__img2 {
+  border: solid 40px #41B4D3;
+  width: 540px;
+  height: 500px;
+  flex-shrink: 0;
+}
+
+/*============== tugadi================*/
+.inter {
+  width: 1110px;
+  height: 84px;
+  flex-shrink: 0;
+}
+.inter__ul {
+  display: flex;
+  justify-content: space-between;
+}
+.inter__title {
+  width: 350px;
+  color: #33323D;
+  font-family: Ibarra Real Nova;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+  /* 105% */
+  letter-spacing: -0.357px;
+}
+.inter__btn {
+  width: 162px;
+  height: 48px;
+  flex-shrink: 0;
+  color: #33323D;
+  font-family: Public Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.rgb {
+  width: 1140px;
+  height: 80px;
+  flex-shrink: 0;
+  background: #33323D;
+}
+
+.navbar1 {
+  justify-content: space-between;
+  display: flex;
+}
+.navbar1__ul {
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  display: flex;
+  list-style-type: none;
+  gap: 40px;
+}
+.navbar1__link {
+  text-decoration: none;
+  color: #FFF;
+  font-family: Public Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.navbar1__img1 {
+  width: 104px;
+  height: 24px;
+  flex-shrink: 0;
+}/*# sourceMappingURL=PORTFOLIO.css.map */

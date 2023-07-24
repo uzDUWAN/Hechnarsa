@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 50px;
+
+}
+
+
+/*======Fontlar=====*/
+
+@font-face {
+    font-family: 'Barlow';
+    font-weight: 400;
+    src: url(./font/Barlow-Regular.woff);
+
+}
+
+@font-face {
+    font-family: 'Barlow';
+    font-weight: 700;
+    src: url(./font/Barlow-Bold.woff);
+}
+
+@font-face {
+    font-family: 'Barlow';
+    font-weight: 700;
+    src: url(./font/Barlow-Bold.woff2);
+}
+
+@font-face {
+    font-family: 'Barlow';
+    font-weight: 400;
+    src: url(./font/Barlow-Regular.woff2);
+
+}
+
+body {
+    font-family: 'Public Sans';
+}
+
+h1 {
+    font-family: ' Ibarra Real Nova';
+}
+
+
+.nav {
+    
+    width: 1111px;
+    height: 32px;
+    flex-shrink: 0;
+    justify-content: space-between;
+    display: flex;
+
+
+
+    &__list {
+        justify-content: space-between;
+        width: 300px;
+        display: flex;
+        list-style-type: none;
+        margin-left: 800px;
+    }
+
+    &__list__link {
+        text-decoration: none;
+        color: #33323D;
+        font-family: Public Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+}
+
+
+.wrap {
+    width: 1218px;
+    height: 798px;
+    flex-shrink: 0;
+
+    &__card1 {
+        width: 445px;
+        height: 357px;
+        flex-shrink: 0;
+        background: #FAFAFA;
+    }
+
+    &__title {
+        background-image: url(./img/Group\ 16.svg);
+        width: 1100px;
+        height: 628px;
+        flex-shrink: 0;
+
+        color: #33323D;
+        font-family: Ibarra Real Nova;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px;
+        letter-spacing: -0.446px;
+
+    }
+
+    &__btn {
+        width: 200px;
+        height: 48px;
+        flex-shrink: 0;
+        background: #203A4C;
+
+        color: #FFF;
+        text-align: center;
+        font-family: Public Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+
+}
+
+
+/*=====tugadi=====*/
+
+.bitma {
+    display: flex;
+
+
+    &__img {
+        padding: 300px;
+        width: 1012px;
+        height: 676px;
+        flex-shrink: 0;
+    }
+
+    &__title {
+        width: 380px;
+        color: #33323D;
+        font-family: Ibarra Real Nova;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 42px;
+        /* 105% */
+        letter-spacing: -0.357px;
+    }
+
+    &__text {
+        margin-top: 38px;
+        width: 370px;
+        color: #33323D;
+        font-family: Public Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        /* 187.5% */
+        opacity: 0.800000011920929;
+    }
+
+    &__btn {
+        margin-top: 43px;
+        color: #33323D;
+        font-family: Public Sans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+
+        width: 202px;
+        height: 48px;
+        flex-shrink: 0;
+        border: 1px solid #33323D;
+    }
+
+    &__ul {
+        margin-left: 250px;
+        width: 350px;
+        height: 502px;
+        flex-shrink: 0;
+    }
+
+
+
+}
+
+/*========Tugadi ========*/
+
+.inter {
+    width: 1110px;
+    height: 84px;
+    flex-shrink: 0;
+
+    &__ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title {
+        width: 350px;
+        color: #33323D;
+        font-family: Ibarra Real Nova;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 42px;
+        /* 105% */
+        letter-spacing: -0.357px;
+    }
+
+    &__btn {
+        width: 162px;
+        height: 48px;
+        flex-shrink: 0;
+
+        color: #33323D;
+        font-family: Public Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+}
+
+.rgb {
+    width: 1140px;
+    height: 80px;
+    flex-shrink: 0;
+
+    background: #33323D;
+}
+
+.navbar {
+    justify-content: space-between;
+    display: flex;
+
+    &__ul {
+        align-items: center;
+        justify-content: center;
+        background-position: center;
+
+        display: flex;
+        list-style-type: none;
+        gap: 40px;
+
+    }
+
+    &__link {
+        text-decoration: none;
+        color: #FFF;
+        font-family: Public Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    &__img1 {
+        width: 104px;
+        height: 24px;
+        flex-shrink: 0;
+    }
+
+
+}
+.burger{
+    display: none;
+    cursor: pointer;
+}
+.burger div{
+    height: 3px;
+    width: 25px;
+    background-color: black;
+    margin: 5px;
+}
+
+
+
+/*========== MEDIA Q =============*/
+@media screen and (max-width:768px) {
+body{
+    overflow-x:hidden ;
+}
+    
+.nav__links{
+    position: absolute;
+    right: 0;
+    height: 92vh;
+    top: 3vh;
+    background-color: #1d1d2c;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+
+}
+.nav__links li{
+   opacity: 0;
+
+}
+.burger{
+    display: block;
+}
+}
+
+/*===========j.s=========*/
+
+    .nav-active{
+        transform: translate(0);
+    }
+
+
+
+
+
+
+
+
+
